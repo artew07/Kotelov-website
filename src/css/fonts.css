@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'AvertaCY';
+    src: url('../fonts/Averta\ Cyrillic\ Light.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'AvertaCY';
+    src: url('../fonts/Averta\ Cyrillic\ Regular.otf');
+    font-weight: 600;
+}
