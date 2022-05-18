@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,46 +8,68 @@
     <title>Kotelov HR REP</title>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <script type="module" src="index.js"></script>
 </head>
-<body>
-    <header class="header">
-        <img src="/src/img/logo.svg" alt="KOTELOV LOGO" class="logo">
-        <nav> 
-            <ul class="mnu_top">
-                <li><a href="#">Кейсы</a></li>
-                <li><a href="#">Аутстаффинг</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Блог</a></li>
-                <li><a href="#">Контакты</a></li>
-                <li><a href="#">HR</a></li>
-            </ul>
-        </nav>
-        <button class="btn_header"> Подать заявку</button>
-    </header>
-    <!-- <script>
-        let message = "hello";
-        message = 123456;
-        alert (message)
-     </script> -->
-    <div class="main"> 
-        Свобода и результат
-        <br>
-        Развитие каждый день 
-        <br>
-        Масштабные проекты
-    </div>
-        
-    <img class="valera_img"
-            src="/src/img/ВалераГОТ-3 1.svg" alt="dog_in_chair">
-   
-    <div class="caption">
-        Создаём корпоративный софт 
-        <br>
-        с курсом на топовые места
-    </div>
-    
-    <img class="arrow_down"
-            src="/src/img/arrow_down.svg" alt="scroll_down">
 
+<body>
+    <div class="pagewrapper" data-scroll-container>
+        <header class="header" data-sctoll-section>
+            <img src="/src/img/logo.svg" alt="KOTELOV LOGO" class="logo">
+            <nav>
+                <ul class="mnu_top">
+                    <li><a href="#">Кейсы</a></li>
+                    <li><a href="#">Аутстаффинг</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">HR</a></li>
+                </ul>
+            </nav>
+            <button class="btn_header"> Подать заявку</button>
+        </header>
+        <!-- Оболочка -->
+        <section class="text" ddata-sctoll-section>
+            <h1>
+                Свобода и результат
+                <br>
+                Развитие каждый день
+                <br>
+                Масштабные проекты
+            </h1>
+            <p>
+                Создаём корпоративный софт
+                <br>
+                с курсом на топовые места
+            </p>
+            <div class="arrow_down"> <img src="../src/icons/arrow_down.svg" alt="arrow_down"> </div>
+            <div> <img class="anime_img" src="../src/img/character 1.svg" alt=""></div>
+        </section>
+    </div>
+
+    <section class="photo" data-sctoll-section>
+        <div class="photo"><img src="../src/img/leonid_photo.png" alt="logo_on_the_wall"></div>
+    </section>
+
+    <section class="text2" data-sctoll-container>
+        <div class="textstar" data-scroll-container>
+            <p>Наша философия</p>
+            <img class="star" src="../src/img/Star 1.svg" alt="pink_star">
+        </div>
+        <div class="promo" data-sctoll-section>
+        <div class="promo1"> <span class="pink">Не следим,</span> во сколько ты пришёл <br> и ушёл с работы, решил сегодня <br>
+            поработать из дома или офиса</div>
+        
+        <div class="promo2" data-sctoll-section> <span class="pink">Строим команду</span> единомышленников
+            <br> и даём свободу в реализации</div>
+
+        <div class="promo2" data-sctoll-section> <span class="pink">Не любим душнил</span> единомышленников
+            <br>  и не стоим над головой</div>
+        
+        <div class="promo3" data-sctoll-section> главное — <br> люби своё дело <br>
+            и относись к нему <br> ответственно</div>
+
+        </div>
+    </section>
 </body>
 </html>

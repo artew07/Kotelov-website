@@ -66,6 +66,10 @@ img {
     margin-right: 164px;
 }
 
+.pagewrapper {
+    min-height: 100vh;
+}
+
 .caption {
     position: relative;
     margin-left: 561px;
@@ -73,14 +77,78 @@ img {
     margin-top: 372px;
 }
 
-.valera_img{
-    position: absolute;
-    display: inline-block;
-    left: 306px;
+.text {
+    padding-left: 200px;
+    padding-top: 88px;
+}
+.text h1 {
+    font-size: 56px;
+}
+
+.text p {
+    padding-top: 24px;
+    padding-left: 364px;
 }
 
 .arrow_down{
-    position: absolute;
-    left: 561px;
-    top: 617px;
+    padding-left:364px; 
+    padding-top: 64px;
 }
+
+.anime_img {
+    position:absolute;
+    bottom: 0px;
+    right: 0;
+    z-index: 1;
+    width: 600px;
+}
+
+.photo {
+    position: relative;
+    z-index: 10;
+}
+
+.text2{
+    padding: 132px 200px;
+}
+
+/* .textstar {
+   
+} */
+
+.text2 p {
+    display: inline;
+    font-size: 14px;
+}
+
+.star {
+    vertical-align: middle;
+    display: inline;
+    padding-left: 224px;
+}
+
+.promo {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.promo1 {
+    padding-top: 72px;
+    padding-left: 360px;
+}
+
+.promo2 {
+    padding-top: 48px;
+    padding-left: 460px;
+}
+
+.pink {
+    color: #F1477E;
+}
+
+.promo3 {
+    padding-top: 180px;
+    font-size: 56px;
+    line-height: 56px;
+}
+
